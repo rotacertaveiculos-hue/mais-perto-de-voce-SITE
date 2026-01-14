@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mais Perto de Você</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>Yoga mais perto de você</h1>
+  <p>Encontre estúdios de yoga próximos da sua localização</p>
+  <button id="btnLocalizacao">Ver estúdios no mapa</button>
+</header>
+
+<section id="mapa"></section>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <p>Usaremos sua localização para encontrar estúdios de yoga próximos a você.</p>
+    <button id="confirmar">Confirmar</button>
+    <button id="cancelar">Cancelar</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=SUA_API_KEY&libraries=places"></script>
+</body>
+</html>
